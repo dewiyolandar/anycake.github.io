@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="img/png" href="vendor/images/icon.png" />
+
+    <!-- Box-icons -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="vendor/style/main.css" />
+
+    <title>Any Cake - Homepage</title>
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="vendor/images/icon.png" class="img-fluid" alt="" width="120px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse align-items-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto me-3">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#product">Product</a>
+            <a class="nav-link" href="#about">About</a>
+          </div>
+          <div class="navbar-auth d-lg-flex align-items-center mt-4 mt-md-0 text-center">
+            <a href="#" class="nav-link mt-2 mt-lg-0 btn-first">Download</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HOME START -->
+    <section class="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="heading-home">
+              AnyCake! Kami Senang Ikut Serta Dalam Moment Bahagia Anda
+              <span class="prop">ENAK</span> dan
+              <span class="kre">CANTIK</span>
+            </h1>
+            <p class="subheading-home">
+              Cake Enak dan Murah Untuk yang Tersayang <br />
+              Rasakan kemudahan Cake's Delivery dari Aplikasi AnyCake
+            </p>
+
+            <div class="btn-home text-center text-sm-start">
+              <a href="#" class="btn-first d-block d-sm-inline">Mulai Belanja</a>
+              <a href="#" class="btn-second ms-sm-4 mt-3 mt-sm-0 d-block d-sm-inline">Explore More</a>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="home-thumbnail mx-auto">
+              <img src="vendor/images/hero-img.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HOME END -->
+
+
+
+    <!-- CATEGORY START -->
+    <section class="category section-margin">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-6 mt-ms-5 d-flex">
+            <i class="bx bxs-check-square"></i>
+            <p class="label-section mt-lg-1 ms-2">Kategori</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <!-- <a href="#" class="btn-second">Kategori Lainnya</a> -->
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-6">
+            <div class="card flex-row justify-content-center align-items-center">
+              <img src="vendor/images/icon-cake.png" alt="" />
+
+              <div class="caption ms-4">
+                <h3>Cake</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-3 mt-md-0">
+            <div class="card flex-row justify-content-center align-items-center">
+              <img src="vendor/images/icon-donut.png" alt="" />
+              <div class="caption ms-4">
+                <h3>Donut</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-3 mt-lg-0">
+            <div class="card flex-row justify-content-center align-items-center">
+              <img src="vendor/images/icon-bom.png" alt="" />
+              <div class="caption ms-4">
+                <h3>Bomboloni</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-3 mt-lg-0">
+            <div class="card flex-row justify-content-center align-items-center">
+              <img src="vendor/images/icon-kue.png" alt="" />
+              <div class="caption ms-4">
+                <h3>Kue Basah</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CATEGORY END -->
+
+    <!-- PRODUCT START -->
+    <section class="product section-margin" id="product">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-6 d-flex">
+            <i class="bx bxs-check-square"></i>
+            <p class="label-section mt-lg-1 ms-2">Produk Kami</p>
+          </div>
+          <div class="col-md-6 text-md-end"></div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="thumbnail position-relative">
+                <img src="vendor/images/bento.png" class="img-fluid" alt="" />
+                <div class="caption-img position-absolute">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                </div>
+              </div>
+              <h3 class="title-class mt-3">Bento Cake</h3>
+              <div class="category-class mt-3">
+                <p class="category-name d-inline px-3 py-2 rounded-3">Kue tart mini dilapisi cream dengan desain yang cantik.</p>
+              </div>
+
+              <div class="detail-card d-flex justify-content-between align-items-center mt-5">
+                <p class="price">Rp 35.000,00</p>
+                <div class="btn-wrapper">
+                  <a href="#" class="btn-second">Pesan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+            <div class="card">
+              <div class="thumbnail position-relative">
+                <img src="vendor/images/karakter.png" class="img-fluid" alt="" />
+                <div class="caption-img position-absolute">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                </div>
+              </div>
+              <h3 class="title-class mt-3">Character Bitrhday Cake</h3>
+              <div class="category-class mt-3">
+                <p class="category-name d-inline px-3 py-2 rounded-3">Birthday Cake dengan dekorasi karakter kesukaan.</p>
+              </div>
+
+              <div class="detail-card d-flex justify-content-between align-items-center mt-5">
+                <p class="price m-0">Rp 65.000,00/rounds</p>
+                <div class="btn-wrapper">
+                  <a href="#" class="btn-second">Pesan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="card">
+              <div class="thumbnail position-relative">
+                <img src="vendor/images/kuebasah.png" class="img-fluid" alt="" />
+                <div class="caption-img position-absolute">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                </div>
+              </div>
+              <h3 class="title-class mt-3">Engkak</h3>
+              <div class="category-class mt-3">
+                <p class="category-name d-inline px-3 py-2 rounded-3">Kue basah cocok saat acara keluarga atau teman</p>
+              </div>
+
+              <div class="detail-card d-flex justify-content-between align-items-center mt-5">
+                <p class="price">Rp 70.000,00/loyang</p>
+                <div class="btn-wrapper">
+                  <a href="#" class="btn-second">Pesan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="card">
+              <div class="thumbnail position-relative">
+                <img src="vendor/images/bom.png" class="img-fluid" alt="" />
+                <div class="caption-img position-absolute">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                </div>
+              </div>
+              <h3 class="title-class mt-3">Bomboloni</h3>
+              <div class="category-class mt-3">
+                <p class="category-name d-inline px-3 py-2 rounded-3">Italian donut dengan filling cokelat berlimpah</p>
+              </div>
+
+              <div class="detail-card d-flex justify-content-between align-items-center mt-5">
+                <p class="price">Rp 6.000,00/pieces</p>
+                <div class="btn-wrapper">
+                  <a href="#" class="btn-second">Pesan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="card">
+              <div class="thumbnail position-relative">
+                <img src="vendor/images/cokelat.png" class="img-fluid" alt="" />
+                <div class="caption-img position-absolute">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                </div>
+              </div>
+              <h3 class="title-class mt-3">Chocolate Cake</h3>
+              <div class="category-class mt-3">
+                <p class="category-name d-inline px-3 py-2 rounded-3">Tart cake dengan rasa cokelat spesial</p>
+              </div>
+
+              <div class="detail-card d-flex justify-content-between align-items-center mt-5">
+                <p class="price">Rp 65.000,00</p>
+                <div class="btn-wrapper">
+                  <a href="#" class="btn-second">Pesan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="card">
+              <div class="thumbnail position-relative">
+                <img src="vendor/images/dodo.png" class="img-fluid" alt="" />
+                <div class="caption-img position-absolute">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                </div>
+              </div>
+              <h3 class="title-class mt-3">Donut</h3>
+              <div class="category-class mt-3">
+                <p class="category-name d-inline px-3 py-2 rounded-3">Donut spesial dengan olesan yang lezat</p>
+              </div>
+
+              <div class="detail-card d-flex justify-content-between align-items-center mt-5">
+                <p class="price">Rp 6.000,00/pieces</p>
+                <div class="btn-wrapper">
+                  <a href="#" class="btn-second">Pesan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PRODUCT END -->
+
+    <!-- ABOUT START -->
+    <section class="about section-margin" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="vendor/images/aa.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md-5 offset-md-1 mt-4 mt-sm-0">
+            <h3 class="heading-section">Aplikasi pemesanan cake murah dan enak di Palembang</h3>
+            <p class="subheading-section mt-3">Anycake adalah toko kue yang menawarkan produk kue yang sesuai selera konsumen dan 
+              melayani custom Cake.</p>
+            <p class="subheading-section">
+              Dengan hadirnya aplikasi Anycake maka Anda lebih mudah merasakan kebahagian bersama Cake spesial dari Anycake.
+            </p>
+
+            <a href="#" class="btn-first mt-5 d-inline-block">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- TESTIMONI START -->
+    <section class="testi section-margin">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-md-5">
+            <h3 class="label-section">Apa Kata Pelanggan AnyCake ?</h3>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12">
+            <!-- Swiper -->
+            <div class="swiper mySwiperTesti pb-4 pb-sm-5">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide card">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                  <p class="body-testi text-white">aplikasinya memudahkan pemesanan cake.</p>
+                  <div class="detail d-flex justify-content-between align-items-center mt-4">
+                    <div class="profil d-flex align-items-center">
+                      
+                      <div class="identity ms-3">
+                        <p class="name m-0 text-white">Jisoo Kim</p>
+                        <p class="profesi m-0 text-white">AnyCake Customer</p>
+                      </div>
+                    </div>
+                    <i class="bx bxs-quote-right"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide card">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                  <p class="body-testi text-white">Sekarang saya bisa membeli cake dengan mudah tanpa datang ke outlet langsung.</p>
+                  <div class="detail d-flex justify-content-between align-items-center mt-4">
+                    <div class="profil d-flex align-items-center">
+                      
+                      <div class="identity ms-3">
+                        <p class="name m-0 text-white">Jennie Kim</p>
+                        <p class="profesi m-0 text-white">AnyCake Customer</p>
+                      </div>
+                    </div>
+                    <i class="bx bxs-quote-right"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide card">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                  <p class="body-testi text-white">Aplikasi memudahkan dalam memilih varian cake di AnyCake.</p>
+                  <div class="detail d-flex justify-content-between align-items-center mt-4">
+                    <div class="profil d-flex align-items-center">
+                    
+                      <div class="identity ms-3">
+                        <p class="name m-0 text-white">Roseanne Park</p>
+                        <p class="profesi m-0 text-white">AnyCake Customer</p>
+                      </div>
+                    </div>
+                    <i class="bx bxs-quote-right"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide card">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                  <p class="body-testi text-white">Delivery aplikasi AnyCake cepat dan aman.</p>
+                  <div class="detail d-flex justify-content-between align-items-center mt-4">
+                    <div class="profil d-flex align-items-center">
+                     
+                      <div class="identity ms-3">
+                        <p class="name m-0 text-white">Lalisa Manoban</p>
+                        <p class="profesi m-0 text-white">AnyCake Customer</p>
+                      </div>
+                    </div>
+                    <i class="bx bxs-quote-right"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide card">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                  <p class="body-testi text-white">Pilihan harga di AnyCake Beragam dan sesuai di kantong pelajar.</p>
+                  <div class="detail d-flex justify-content-between align-items-center mt-4">
+                    <div class="profil d-flex align-items-center">
+                     
+                      <div class="identity ms-3">
+                        <p class="name m-0 text-white">Yura Yunita</p>
+                        <p class="profesi m-0 text-white">AnyCake Customer</p>
+                      </div>
+                    </div>
+                    <i class="bx bxs-quote-right"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide card">
+                  <div class="rate">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                  <p class="body-testi text-white">Donut AnyCake rasanya enak dan terjangkau</p>
+                  <div class="detail d-flex justify-content-between align-items-center mt-4">
+                    <div class="profil d-flex align-items-center">
+                      
+                      <div class="identity ms-3">
+                        <p class="name m-0 text-white">Zico</p>
+                        <p class="profesi m-0 text-white">AnyCake Customer</p>
+                      </div>
+                    </div>
+                    <i class="bx bxs-quote-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONI END -->
+
+    <!-- CALL TO ACTION START -->
+    <section class="cta section-margin">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-4">
+            <h3 class="heading-section">Download Aplikasi AnyCake </h3>
+            <p class="subheading-section mt-3">
+              Menggunakan aplikasi AnyCake memudahkan untuk menikmati Cake dan Donut yang Enak dan terjangkau untuk semua kalangan
+            </p>
+
+            <a href="#" class="btn-first mt-5 d-inline-block">Download Now</a>
+          </div>
+          <div class="col-lg-6 mt-5">
+            <div class="thumbnail">
+              <img src="vendor/images/yuma.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CALL TO ACTION END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer section-margin">
+      <div class="container">
+        <div class="row row-content justify-content-between justify-content-md-start">
+          <div class="col-lg-2 col-md-6">
+            <img src="vendor/images/icon.png" alt="" width="110px   " />
+            <a href="#" class="email mt-4 d-inline-block text-white">help@AnyCake.com</a>
+            <p class="phone text-white">(0321) 88245</p>
+            <div class="icons mt-4">
+              <a href="#"><i class="bx bxl-whatsapp"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt mx-2"></i></a>
+              <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-3 mt-4 mt-sm-0">
+            <h3>Informasi</h3>
+            <ul>
+              <li>Jam Kerja</li>
+              <li>Berita</li>
+              <li>Tentang Kami</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 mt-4 mt-sm-0">
+            <h3>Helpfull Link</h3>
+            <ul>
+              <li>Service</li>
+              <li>Support</li>
+              <li>Terms & Condition</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 mt-4 mt-sm-0">
+            <h3>Alamat</h3>
+            <p class="text-white">Jl Inspektur Marzuki, samping TK Auladi</p>
+            <a href="#" class="maps text-white">Google Map</a>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12">
+            <p class="text-white">&copy;Copyright 2022 all right reserved | Built by AnyCake</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Boostrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Main Script -->
+    <script src="vendor/js/main.js"></script>
+  </body>
+</html>
